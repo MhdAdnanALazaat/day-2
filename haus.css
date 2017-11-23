@@ -1,3 +1,58 @@
-<div class="in-grediants">
-  <p>The w3-container class is an important w3.CSS class.</p>
-</div>
+body{
+font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+width:800px;
+margin: 0 auto;
+padding-left: 50px;
+padding-right: 50px; 
+
+} 
+
+p, li {
+	color: #707070;
+}
+header {
+
+	text-align: center;
+} 
+
+h1 {
+
+	color: #DB0038;
+}
+
+h2 {
+
+	color: #3998A3;
+}
+
+h3 {
+
+	color: #474747;
+}
+
+.hero{
+
+	background: #f4f4f4; 
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+li {
+
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+span{
+
+	color: #F4B400;
+}
+
+footer{
+text-align: center;
+
+}
+
