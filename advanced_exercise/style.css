@@ -1,12 +1,20 @@
+body {
+	font-family: sans-serif;
+}
+
 header div {
 	text-align: center;
 	padding: 20px 0;
 }
 
+header div img {
+	max-width:  175px;
+}
+
 nav {
 	text-align: center;
-	background: #eee;
-	padding: 20px 0;
+	background: RGBA(0, 0, 0, 0.87);
+	padding: 10px 0;
 }
 
 ul {
@@ -15,16 +23,28 @@ ul {
 
 nav ul li {
 	display: inline-block;
-	padding: 0 10px 0 10px;
+	padding: 0 20px 0 20px;
+	font-weight: 300;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color:  #fff;
 }
 
 .feature {
-	text-align: center;
-	background: #eee;
-	padding: 20px 0;
-	margin-top: 20px;
-	margin-bottom:  20px;
+    text-align: center;
+    background-color: #eee;
+    background-image: url("img/Apple-Stores-2013-holiday-store-window-9to5Mac-001.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom, center center;
+    padding: 20px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 800px;
 }
+
 
 .col {
 	float: left;
@@ -34,6 +54,7 @@ nav ul li {
 	margin: 0 10px;
 	padding: 20px 0;
 	margin-bottom: 20px;
+	height: 400px;
 }
 
 .col-left {
@@ -49,4 +70,23 @@ footer {
 	text-align: center;
 	background: #eee;
 	padding: 20px 0;
+	padding-bottom: 40px;
+}
+
+.left {
+	float:  left;
+}
+
+.right {
+	float: right;
+}
+.right img {
+	position: relative;
+	top: -9px;
+}
+
+.center {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
 }
